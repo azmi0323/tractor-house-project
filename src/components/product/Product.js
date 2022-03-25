@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import SingleProduct from '../singleProduct/SingleProduct';
 import './Product.css';
 
 const Product = () => {
     const [products, setProducts]=useState([]);
-    console.log(products);
+    // console.log(products);
     useEffect(()=>{
         fetch("products.json")
       .then((res) => res.json())
@@ -12,7 +13,9 @@ const Product = () => {
     },[])
     return (
         <div>
-            <h1>product</h1>
+            {
+                products.map(product=><SingleProduct product={product} key={product.id}></SingleProduct>)
+            }
         </div>
     );
 };
