@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Mahindra Yuvraj 215 NXT",
+    "FuelCapacity":"It has a fuel capacity of 19 L",
+    "price": 25000,
+    "img": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/mahindra-yuvraj-215-nxt.jpg",
+    "quantity": 45
+  },
+  {
+    "id": "2",
+    "name": "Sonalika DI 35 RX",
+    "FuelCapacity":"It has a fuel capacity of 55 L",
+    "price": 20000,
+    "img": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/sonalika-di-35-rx.jpg",
+    "quantity": 35
+  },
+  {
+    "id": "3",
+    "name": "Preet 3549",
+    "FuelCapacity":"It has a fuel capacity of 67 L",
+    "price": 48000,
+    "img": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/preet-3549.jpg",
+    "quantity": 76
+  },
+  {
+    "id": "4",
+    "name": "Kubota NeoStar B274",
+    "FuelCapacity":"Being a mini tractor, it has a fuel capacity of only 3 L",
+    "price": 18000,
+    "img": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/kubota-neostar.jpg",
+    "quantity": 45
+  },
+  {
+    "id": "5",
+    "name": "John Deere 5105",
+    "FuelCapacity":"It has a fuel capacity of 60 L",
+    "price": 23000,
+    "img": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/john-deere-5105.jpg",
+    "quantity": 45
+  },
+  {
+    "id": "6",
+    "name": "Eicher 380 Super DI",
+    "FuelCapacity":"It has a fuel capacity of 45 L",
+    "price": 18000,
+    "img": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/eicher-380-super-di.jpg",
+    "quantity": 45
+  },
+  {
+    "id": "7",
+    "name": "Indo Farm 3048 DI",
+    "FuelCapacity":"It has a fuel capacity of 55 L",
+    "price": 58000,
+    "img": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/indo-farm-3048-di.jpg",
+    "quantity": 66
+  },
+  {
+    "id": "8",
+    "name": "Escorts Powertrac Euro 50",
+    "FuelCapacity":"It has a fuel capacity of 60 L",
+    "price": 87000,
+    "img": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/escorts-powertrac-euro-50.jpg",
+    "quantity": 43
+  },
+  {
+    "id": "9",
+    "name": "Escorts Farmtrac 60",
+    "FuelCapacity":"It has a fuel capacity of 50 L",
+    "price": 68000,
+    "img": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/escorts-farmtrac-60.jpg",
+    "quantity": 98
+  },
+  {
+    "id": "10",
+    "name": "New Holland 3630 TX",
+    "FuelCapacity":"It has a fuel capacity of 60 L",
+    "price": 88000,
+    "img": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/new-holland-3630-tx.jpg",
+    "quantity": 543
+  }
+]
