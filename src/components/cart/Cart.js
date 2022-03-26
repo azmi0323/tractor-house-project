@@ -7,7 +7,10 @@ const Cart = (props) => {
     <div className="mt-4 cart-components">
       <h4>Selected <span className="text-info">Products</span></h4>
       {props.cart.map((item) => (
-        <p key={item.id}>{item.name}</p>
+        <div key={item.id}>
+            <p className="fs-3 " >{item.name}</p>
+            <hr />
+        </div>
       ))}
       <button onClick={chooseOneBtn} className="m-2 w-100 btn btn-success">
         Chose One For me

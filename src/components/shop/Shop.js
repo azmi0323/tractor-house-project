@@ -31,7 +31,7 @@ const Shop = () => {
   };
 
   return (
-    <div className="row">
+    <div className="row ">
       <div className="col-lg-10 col-md-8 col-sm-12 col-12">
         <Product addToCart={addToCart}></Product>
       </div>

@@ -8,4 +8,6 @@
   border-radius: 11px;
   background: #ffffff;
   box-shadow: 7px 7px 14px #d4d4d4, -7px -7px 14px #ffffff;
+  display: flex;
+  flex-direction: column;
 }
