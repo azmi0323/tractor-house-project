@@ -8,7 +8,7 @@ const Cart = (props) => {
       <h4>Selected <span className="text-info">Products</span></h4>
       {props.cart.map((item) => (
         <div key={item.id}>
-            <p className="fs-3 " >{item.name}</p>
+            <p className="fs-5 " >{item.name}</p>
             <hr />
         </div>
       ))}
