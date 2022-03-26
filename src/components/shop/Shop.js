@@ -15,18 +15,32 @@ const Shop = () => {
       } else {
         alert("Already Exist this Item");
       }
-    }
-    else{
-        alert('You can only select four items')
+    } else {
+      alert("You can only select four items");
     }
   };
+
+  const chooseOneBtn = () => {
+    if (cart.length > 0) {
+      const random = Math.floor(Math.random() * cart.length);
+      setCart([cart[random]]);
+    }
+  };
+  const chooseAgainBtn = () => {
+    setCart([]);
+  };
+
   return (
     <div className="row">
       <div className="col-lg-8 col-md-8 col-sm-12 col-12">
         <Product addToCart={addToCart}></Product>
       </div>
       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-        <Cart cart={cart}></Cart>
+        <Cart
+          chooseOneBtn={chooseOneBtn}
+          chooseAgainBtn={chooseAgainBtn}
+          cart={cart}
+        ></Cart>
       </div>
     </div>
   );
