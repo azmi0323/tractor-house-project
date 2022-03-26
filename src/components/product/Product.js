@@ -12,7 +12,7 @@ const Product = (props) => {
       
     },[])
     return (
-        <div className='row gx-4 gy-5 row-cols-1 row-cols-md-2 row-cols-lg-3'>
+        <div className='row align-items-stretch gx-4 gy-5 row-cols-1 row-cols-md-2 row-cols-lg-3'>
             {
                 products.map(product=><SingleProduct addToCart={props.addToCart} product={product} key={product.id}></SingleProduct>)
             }

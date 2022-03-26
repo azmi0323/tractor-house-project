@@ -1,6 +1,11 @@
 .product-img {
-    width: 100%;
-    border-radius: 10px;
-    height: 250px;
-    /* overflow: hidden; */
-  }
+  width: 100%;
+  border-radius: 10px;
+  height: 250px;
+  /* overflow: hidden; */
+}
+.product-container {
+  border-radius: 11px;
+  background: #ffffff;
+  box-shadow: 7px 7px 14px #d4d4d4, -7px -7px 14px #ffffff;
+}
