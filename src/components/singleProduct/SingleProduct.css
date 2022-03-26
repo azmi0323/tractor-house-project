@@ -1,12 +1,6 @@
 .product-img {
     width: 100%;
     border-radius: 10px;
+    height: 250px;
     /* overflow: hidden; */
   }
-  .product-container {
-    border: 2px solid red;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 20px;
-  }
- 
